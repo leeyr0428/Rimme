@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    text-decoration:none;
+    color:black;
+    list-style:none;
+}
+html,body{
+    width:100%;
+    height:100vh;
+    background-image: url(./img/bg.png);
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar { display: none; }
+
+
+/* header */
+header {
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #fff;
+    z-index: 1000;
+
+}
+header .inner {
+    width: 94%;
+    position: relative;
+    margin: 0 auto;
+}
+a, a:visited {
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    color: #BDBDBD;
+    transition: all 0.2s;
+}
+nav ul {
+    float: right;
+}
+nav li {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 200;
+    margin-left: 150px;
+  
+}
+#logo {
+    float: left;
+}
+
+
+
+/* main sec1 */
+.sec1 {
+    font-family: 'Russo One', sans-serif;    
+    font-weight: 600;
+    font-size: 305px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.sec1-1 {
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+    left: 30px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.sec1-1 > li > p {
+    float: left;
+}
+
+
+/* main sec2 */
+#main1 {
+    clear: both;
+    margin-left: 51px;
+}
+
+/* preview */
+section > div#preview > div#work > div.b > a._b >img {
+    margin-left: 70px; 
+    margin-top: 150px; 
+    z-index: 1;
+    position: absolute;
+    margin-bottom: 60px;
+}
+
+section > div#preview > div#work > div.b > div.p > h1 {
+    color: black; 
+    font-size: 22px;
+    font-weight: 900;
+    margin-left: 1302px; 
+    margin-top: 380px;
+    position: absolute;
+    position: fixed;
+}
+
+section > div#preview > div#work > div.b > div.p > h2 {
+    color: black; 
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 1302px; 
+    margin-top: 357px;
+    position: absolute;
+    position: fixed;
+}
+section > div#preview > div#work > div.b > div.p > p {
+    color: black;  
+    font-size: 18px; 
+    font-weight: 400; 
+    margin-left: 1303px;
+    margin-right: 65px;
+    font-family: 'Noto Sans KR', sans-serif; 
+    z-index: 1000; 
+    position: absolute;
+    margin-top: 415px; 
+    position: fixed;
+}
+
+
+
+ /* footer */
+ footer {
+     margin-top: 40px;
+     margin-bottom: 40px;
+     font-size: 20px;
+     color: black;
+ }
+
+ /* up */
+ #up {
+    font-family: 'Russo One', sans-serif;    
+    margin-top: 1930px;
+    float: right;
+    margin-right: 90px;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    opacity: 0.9;
+    margin-bottom: 60px;
+  }
